@@ -106,18 +106,10 @@
                             <div class="cv-round-xlarge  cv-center cv-teal" style="height:24px;width:60%">B2 Level</div>
                         </div>
                         <br>
+                       
                         <h3 class="cv-large cv-text-theme">
                             <b>
-                                <i class="fa fa-hashtag fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Interests</b>
-                        </h3>
-                        <ul>
-                            <li>Team and Project management</li>
-                            <li>Web apps</li>
-                            <li>Mathematics</li>
-                        </ul>
-                        <h3 class="cv-large cv-text-theme">
-                            <b>
-                                <i class="fa fa-hashtag fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Skills</b>
+                                <i class="fa fa-cogs fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Skills</b>
                         </h3>
                         <ul>
                             <li>Team working</li>
@@ -127,7 +119,17 @@
 
                         <h3 class="cv-large cv-text-theme">
                             <b>
-                                <i class="fa fa-hashtag fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Strengths</b>
+                                <i class="fa fa-hashtag fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Interests</b>
+                        </h3>
+                        <ul>
+                            <li>Team and Project management</li>
+                            <li>Web apps</li>
+                            <li>Mathematics</li>
+                        </ul>
+
+                        <h3 class="cv-large cv-text-theme">
+                            <b>
+                                <i class="fa fa-star fa-fw cv-margin-right cv-xlarge cv-text-teal" aria-hidden="true"></i>Strengths</b>
                         </h3>
                         <ul>
                             <li>Focused
@@ -294,57 +296,56 @@
                             </p>
                             <hr>
                         </div>
-
                     </div>
-
-
-                    <!-- Volunteering -->
-                    <div class="cv-container cv-card cv-white cv-margin-bottom">
-                        <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('volunteering')">
-                            <i class="fa fa-heart fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Volunteering
-                            <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
-                        </h2>
-
-                        <div id="volunteering" class="cv-container cv-hide cv-show">
-                            <div class="cv-container">
-                                <h5 class="cv-opacity">
-                                    <b>Microsoft</b>
-                                </h5>
-                                <h6 class="cv-text-teal">
-                                    <i class="fa fa-calendar fa-fw cv-margin-right"></i>Nov 2017 - Jan 2018
-                                </h6>
-                                <p>Translating Visual Studio Code to Bulgarian</p>
-                                <hr>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- End Right Column -->
                 </div>
 
-                <!-- End Grid -->
+                <!-- Volunteering -->
+                <div class="cv-container cv-card cv-white cv-margin-bottom">
+                    <h2 class="cv-text-grey cv-padding-16" onclick="toggleVisibility('volunteering')">
+                        <i class="fa fa-heart fa-fw cv-margin-right cv-xxlarge cv-text-teal"></i>Volunteering
+                        <i class="fa fa-chevron-down cv-right-chevron-down" aria-hidden="true"></i>
+                    </h2>
+
+                    <div id="volunteering" class="cv-container cv-hide cv-show">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Microsoft</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>Nov 2017 - Jan 2018
+                            </h6>
+                            <p>Translating Visual Studio Code to Bulgarian</p>
+                            <hr>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- End Right Column -->
             </div>
 
-            <!-- End Page Container -->
+            <!-- End Grid -->
         </div>
 
-        <footer class="cv-container cv-teal cv-center cv-margin-top">
-            <p>Find me on social media.</p>
-            <a target="blank" class="fa fa-facebook-official cv-xlarge cv-hover-opacity" href="https://www.facebook.com/didi.milikina"></a>
-            <a target="blank" class="fa fa-github cv-xlarge cv-hover-opacity" href="https://github.com/DidiMilikina"></a>
-            <a target="blank" class="fa fa-linkedin cv-xlarge cv-hover-opacity" href="https://www.linkedin.com/in/didi-milikina-7ab34b148/"></a>
-        </footer>
-        <script>
-            function toggleVisibility(id) {
-                var x = document.getElementById(id);
-                if (x.className.indexOf("cv-show") == -1) {
-                    x.className += " cv-show";
-                } else {
-                    x.className = x.className.replace(" cv-show", "");
-                }
+        <!-- End Page Container -->
+    </div>
+
+    <footer class="cv-container cv-teal cv-center cv-margin-top">
+        <p>Find me on social media.</p>
+        <a target="blank" class="fa fa-facebook-official cv-xlarge cv-hover-opacity" href="https://www.facebook.com/didi.milikina"></a>
+        <a target="blank" class="fa fa-github cv-xlarge cv-hover-opacity" href="https://github.com/DidiMilikina"></a>
+        <a target="blank" class="fa fa-linkedin cv-xlarge cv-hover-opacity" href="https://www.linkedin.com/in/didi-milikina-7ab34b148/"></a>
+    </footer>
+    <script>
+        function toggleVisibility(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("cv-show") == -1) {
+                x.className += " cv-show";
+            } else {
+                x.className = x.className.replace(" cv-show", "");
             }
-        </script>
+        }
+    </script>
 </body>
 
 </html>
