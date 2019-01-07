@@ -651,8 +651,8 @@ a {
     clear: both
 }
 
-.cv-container a{
-    color: rgb(24, 92, 138);
+.highlight {
+    color: rgb(37, 129, 190);
 }
 
 .cv-col,
