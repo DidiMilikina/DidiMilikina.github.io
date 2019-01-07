@@ -651,6 +651,10 @@ a {
     clear: both
 }
 
+.cv-container a{
+    color: rgb(24, 92, 138);
+}
+
 .cv-col,
 .cv-half,
 .cv-third,
