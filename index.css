@@ -40,7 +40,7 @@ summary {
 footer a {
     text-decoration: none;
     margin-right: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 audio,
@@ -65,7 +65,6 @@ template {
 }
 
 a {
-    text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
@@ -252,7 +251,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 
 h2:hover {
@@ -288,7 +287,7 @@ h5,
 h6 {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0
+    margin: 2px 0
 }
 
 .cv-wide {
@@ -298,7 +297,7 @@ h6 {
 hr {
     border: 0;
     border-top: 1px solid #eee;
-    margin: 20px 0
+    margin: 0px 0
 }
 
 .cv-image {
@@ -310,9 +309,9 @@ img {
     vertical-align: middle
 }
 
-a {
+/* a {
     color: inherit
-}
+} */
 
 .cv-table,
 .cv-table-all {
@@ -357,7 +356,7 @@ a {
 .cv-table th,
 .cv-table-all td,
 .cv-table-all th {
-    padding: 8px 8px;
+    padding: 4px 4px;
     display: table-cell;
     text-align: left;
     vertical-align: top
@@ -367,14 +366,14 @@ a {
 .cv-table td:first-child,
 .cv-table-all th:first-child,
 .cv-table-all td:first-child {
-    padding-left: 16px
+    padding-left: 10px
 }
 
 .cv-btn,
 .cv-button {
     border: none;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 4px 8px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
@@ -386,7 +385,7 @@ a {
 }
 
 .cv-btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19)
 }
 
 .cv-btn,
@@ -421,8 +420,8 @@ a {
     background-color: #000;
     color: #fff;
     display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
     text-align: center
 }
 
@@ -437,7 +436,7 @@ a {
 }
 
 .cv-ul li {
-    padding: 8px 16px;
+    padding: 4px 8px;
     border-bottom: 1px solid #ddd
 }
 
@@ -467,7 +466,7 @@ a {
 }
 
 .cv-input {
-    padding: 8px;
+    padding: 4px;
     display: block;
     border: none;
     border-bottom: 1px solid #ccc;
@@ -1049,33 +1048,33 @@ a {
 
 .cv-container,
 .cv-panel {
-    padding: 0.01em 16px
+    padding: 0.01em 8px
 }
 
 .cv-panel {
-    margin-top: 16px;
-    margin-bottom: 16px
+    margin-top: 8px;
+    margin-bottom: 8px
 }
 
 .cv-code,
 .cv-codespan {
     font-family: Consolas, "courier new";
-    font-size: 16px
+    font-size: 8px
 }
 
 .cv-code {
     width: auto;
     background-color: #fff;
-    padding: 8px 12px;
-    border-left: 4px solid #4CAF50;
+    padding: 2px 3px;
+    border-left: 2px solid #4CAF50;
     word-wrap: break-word
 }
 
 .cv-codespan {
     color: crimson;
     background-color: #f1f1f1;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
     font-size: 110%
 }
 
@@ -1086,7 +1085,7 @@ a {
 
 .cv-card-4,
 .cv-hover-shadow:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19)
 }
 
 .cv-spin {
@@ -1363,23 +1362,23 @@ a {
 }
 
 .cv-margin {
-    margin: 16px!important
+    margin: 10px!important
 }
 
 .cv-margin-top {
-    margin-top: 16px!important
+    margin-top: 10px!important
 }
 
 .cv-margin-bottom {
-    margin-bottom: 16px!important
+    margin-bottom: 10px!important
 }
 
 .cv-margin-left {
-    margin-left: 16px!important
+    margin-left: 10px!important
 }
 
 .cv-margin-right {
-    margin-right: 16px!important
+    margin-right: 10px!important
 }
 
 .cv-padding-small {
@@ -1392,6 +1391,11 @@ a {
 
 .cv-padding-large {
     padding: 12px 24px!important
+}
+
+.cv-padding-8 {
+    padding-top: 8px!important;
+    padding-bottom: 8px!important
 }
 
 .cv-padding-16 {
