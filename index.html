@@ -437,12 +437,14 @@ Companies that I worked with were Uber, Leanplum and MindHub, and I attended man
                                 Furthermore, the courses included in the minor examine the stages of model formulation, parameter estimation, diagnostic checking, hypothesis testing, model selection and empirical analysis.</span>
                             <br>
                             <br>
-                            <b>Thesis: Transformers for natural language</b>
+                            <b>Thesis: Enhanced Sequence-to-Sequence Machine Text
+                                Translation: Investigating the Benefits of Attention
+                                mechanism and Attention mechanism with GRUs</b>
                             <br>
-                            <span>The main task of the thesis was to <i>build an autoregressive model from scratch</i>. <br>
-                                As a first step of the project, I built a machine-learning model that is the basis for self-attention layers used in the encoder and decoder and built these layers into a variational encoder. 
-                                In the second part of the project, the model will be further extended to answer a predefined research question in the chosen area and subject. <br>
-                                Data preprocessing was performed on the dataset provided by the thesis supervisor. Furthermore, experiments regarding the model design combined with the optimisers SGD(Stochastic Gradient Descent) and Adam were performed to explore the best setup of the model without over or underfitting. Cross Entropy loss function was used to measure the performance of the classification model, which is represented as a binary value.
+                            <a target="blank" href="https://drive.google.com/file/d/1B-nS9rJubUBDBF94wu3V1Dt_WqnZrd_l/view?usp=sharing">Scientific paper</a>
+                            <br>
+                            <span>
+                                The paper I authored investigates the application of Recurrent Neural Networks (RNNs) with attention mechanisms for English-to-French sequence-to-sequence machine text translation. It introduces two transformer models: one using pure attention and the other combining attention with Gated Recurrent Units (GRUs) in an encoder-decoder architecture. Drawing inspiration from "Attention Is All You Need," the study differs by not employing teacher-forcing techniques. Translation performance evaluation using the BiLingual Evaluation Understudy (BLEU) score reveals enhanced results for both transformers with a low learning rate and deeper encoder-decoder blocks.
                             </span>
                             <br>
                             <span>
@@ -450,8 +452,6 @@ Companies that I worked with were Uber, Leanplum and MindHub, and I attended man
                                 <i>Language and main library:</i> Python, PyTorch <br>
                             <i>Visualisation and experimentation tracking:</i> <a target="blank" href="https://wandb.ai/site">Weights & Biases </a> <br>
                             <br>
-                                <i>Note: I am currently working on my thesis.</i>
-                            </span>
                         </div>
                         <hr>
                         <br>
@@ -783,6 +783,102 @@ Companies that I worked with were Uber, Leanplum and MindHub, and I attended man
                     </h2>
 
                     <div id="projects" class="cv-container cv-hide cv-show ">
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>Exploring the Impact of Location and Price on Restaurant Ratings</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>January 2023
+                            </h6>
+                            <p>
+                                This project aims to investigate the influence of location and price on restaurant ratings, addressing the lack of research in this area. By utilizing advanced statistical techniques, the project seeks to fill this gap and provide valuable insights for the restaurant industry.
+                                <br>
+                                <br>
+                                <b>Methodology:</b>
+                                <ul>
+                                    <li>
+                                        Cluster Analysis: Employing cluster analysis, the study categorizes restaurants based on their proximity to city centers. This analysis uncovers patterns and clusters within the data, revealing how city center proximity plays a role in influencing restaurant ratings.
+                                    </li>
+                                    <li>
+                                        Multiple Linear Regression: The project utilizes multiple linear regression to assess the main and moderating effects of location and price on restaurant ratings. This technique helps establish relationships between these factors and their impact on ratings.
+                                    </li>
+                                </ul>
+                                <b>Findings:</b>
+                                <ul>
+                                    <li>
+                                        Cluster Insights: The analysis uncovers four distinct clusters of restaurants based on their city center proximity. This categorization provides valuable insights into how geographical location influences restaurant ratings.
+                                    </li>
+                                    <li>
+                                        Significant Impact: The research demonstrates that the identified clusters significantly affect restaurant ratings. The project's findings shed light on the previously unexplored relationship between location and ratings.
+                                    </li>
+                                    <li>
+                                        Price Moderation: The study reveals that price has a moderating effect on the relationship between location and restaurant ratings. Specifically, the effect of location on ratings varies depending on the pricing strategy adopted by restaurants.
+                                    </li>
+                                </ul>
+                                <b>Conclusion:</b>
+                                By examining the interplay between location, price, and restaurant ratings, this project contributes essential insights for the restaurant industry. The project's findings suggest that restaurants in city areas with high competitor concentrations tend to receive higher ratings. Additionally, the moderation effect of price on restaurant ratings highlights the importance of carefully considering pricing strategies. The knowledge gained from this project offers valuable guidance to restaurant owners and managers seeking to optimize their ratings and overall success.
+                            </p>
+                            <p>
+                                <a target="blank" class="highlight" href="https://drive.google.com/file/d/16kJRyYf8Kfu2Gaa8mrh0QiFoPVSaZ_X5/view?usp=sharing">Scientific paper</a></p>
+                            <hr>
+                        </div>
+
+                        <div class="cv-container">
+                            <h5 class="cv-opacity">
+                                <b>A Comparative Analysis Of Convolutional Neural
+                                    Networks Performance Using Class-Weights Versus
+                                    Applying Oversampling On Highly Imbalanced
+                                    Image Data Sets</b>
+                            </h5>
+                            <h6 class="cv-text-teal">
+                                <i class="fa fa-calendar fa-fw cv-margin-right"></i>April 2022
+                            </h6>
+                            <p>
+                                This project investigates strategies for managing imbalanced image datasets in Convolutional Neural Networks (CNNs) by comparing two techniques: oversampling and class weighting. The focus is on a dataset containing images of whales and dolphins, which exhibits a significant class imbalance.
+                                <br>
+                                <br>
+                                <b>Objectives:</b>
+                                <br>
+                                <ul>
+                                    <li>
+                                        Compare the effectiveness of oversampling and class weighting methods for imbalanced data in CNNs.
+                                    </li>
+                                    <li>
+                                        Evaluate the performance of three residual convolutional models with variations in end layers, depth, and width.
+                                    </li>
+                                </ul>
+                                <b>Methodology:</b>
+                                <br>
+                                <ul>
+                                    <li>
+                                        Employ three residual convolutional models incorporating modern architectural features such as residual connections, global average pooling, and swish activation.
+                                    </li>
+                                    <li>
+                                        Implement oversampling to duplicate instances from minority classes and utilize class weighting to assign appropriate importance to each class during training.
+                                    </li>
+                                </ul>
+                                <b>Results:</b>
+                                <br>
+                                <ul>
+                                    <li>
+                                        The experiments demonstrate that oversampling leads to higher accuracy in the classification task.
+                                    </li>
+                                    <li>
+                                        However, oversampling also introduces a higher false-positive rate for classes with limited instances.
+                                    </li>
+                                    <li>
+                                        The choice between oversampling and class weighting depends on striking a balance between accuracy and true-positive rate, particularly in real-world production scenarios.
+                                    </li>
+                                </ul>
+                                <b>Conclusion:</b>
+                                <br>
+                                This project provides insights into handling imbalanced image datasets for CNNs. By comparing oversampling and class weighting techniques, it highlights the trade-offs between accuracy and false-positive rates. The findings can guide the selection of an appropriate approach based on the specific needs of the task and the production environment.
+                            </p>
+                            <p>
+                                <a target="blank" class="highlight" href="https://drive.google.com/file/d/1BiCaCxh0YA6AcXnVI3EKC30fUVI0wtOs/view?usp=sharing">Scientific paper</a></p>
+                            <hr>
+                        </div>
+
                         <div class="cv-container">
                             <h5 class="cv-opacity">
                                 <b>Web app - BooksExchange</b>
